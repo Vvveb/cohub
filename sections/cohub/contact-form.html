@@ -1,0 +1,119 @@
+<section class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto col-md-12">
+        <div class="page-header">
+          <h2>Contact Me</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos accusam et justo duo dolores ea rebum Stet
+            clita.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="contact-form">
+          <h2>Contact Form</h2>
+
+
+          <div class="notifications" data-v-notifications>
+
+            <div class="alert alert-danger d-flex alert-dismissable" role="alert" data-v-notification-error>
+
+              <div class="icon align-middle me-2">
+                <i class="align-middle la la-2x lh-1 la-exclamation-triangle"></i>
+              </div>
+
+              <div class="flex-grow-1 align-self-center text-small">
+                <div>
+                  <div data-v-notification-text>
+                    This is a placeholder for a notification message.
+                  </div>
+                </div>
+              </div>
+
+
+              <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">
+                  <!-- <i class="la la-times"></i> -->
+                </span>
+              </button>
+            </div>
+
+            <div class="alert alert-success d-flex  alert-dismissable d-flex" role="alert" data-v-notification-success>
+
+              <div class="icon align-middle me-2">
+                <i class="align-middle la la-2x lh-1 la-check-circle"></i>
+              </div>
+
+              <div class="flex-grow-1 align-self-center align-middle" data-v-notification-text>
+                This is a placeholder for a success message.
+              </div>
+
+              <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">
+                  <!-- <i class="la la-times"></i> -->
+                </span>
+              </button>
+            </div>
+
+            <div class="alert alert-primary d-flex alert-dismissable d-flex" role="alert" data-v-notification-info>
+
+              <div class="icon align-middle me-2">
+                <i class="align-middle la la-2x lh-1  la-info-circle"></i>
+              </div>
+
+              <div class="flex-grow-1 align-self-center" data-v-notification-text>
+                This is a placeholder for a info message.
+              </div>
+
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">
+                  <!-- <i class="la la-times"></i> -->
+                </span>
+              </button>
+            </div>
+
+          </div>
+
+          <div class="contact-form-input" data-v-component-plugin-contact-form-form data-v-storage="database" data-v-name="contact-us-page">
+            <form method="post" action="">
+              <input type="hidden" class="form-control" placeholder="First name" name="firstname-empty">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" id="namme" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" id="validationCustom02" required="" placeholder="Your Email" name="email" required>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message here…"></textarea>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-check d-inline-block">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">
+                      I agree that my submitted data is being collected and stored.
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- if these hidden inputs are filled then ignore, robots -->
+
+              <input type="text" class="form-control d-none" placeholder="Subject" name="contact-form">
+
+              <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty">
+
+              <input type="text" class="form-control visually-hidden" placeholder="Last name" name="lastname-empty" tabindex="-1">
+              <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
